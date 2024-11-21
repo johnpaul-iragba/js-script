@@ -111,4 +111,4 @@ console.log(canDesignWebsite);
 const isAdmin = false;
 const isSuperUser = false;
 const CanAccessPage = isAdmin || isSuperUser ;
-console.log(CanAccessPage)
+console.log(CanAccessPage) 

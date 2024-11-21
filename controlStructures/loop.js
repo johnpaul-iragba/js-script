@@ -28,3 +28,20 @@ const students = [
 for (let i = 0; i < students.length; i++) {
     console.log("students", students[i].name,"Grade:",students[i].grade);
 }
+
+
+const Attribute = [
+    {name: "Johnpaul", school: "new Horizon", course:"frontEnd"},
+]
+
+for (let i = 0; i < Attribute.length ; i++) {
+    console.log("My name is:", Attribute[i].name,"course:",Attribute[i].course, "school:", Attribute[i].school )
+}
+
+//while loop
+let i = 0;
+while ( i < 5){
+    console.log("count is:" + i)
+    i++
+}
+
